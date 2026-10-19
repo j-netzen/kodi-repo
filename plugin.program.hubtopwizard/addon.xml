@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.hubtopwizard" name="Hubtop Build Wizard" version="1.0.0" provider-name="j-netzen">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Installs the Hubtop build</summary>
+    <description>Downloads the Hubtop build zip from GitHub and installs it into Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
